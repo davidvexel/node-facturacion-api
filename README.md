@@ -9,17 +9,17 @@ http://docs.facturacom.apiary.io/
 
 ## Uso
 
-Clona este repositorio en la carpeta de tu preferencia
+- Clona este repositorio en la carpeta de tu preferencia
 
 `git@github.com:davidvexel/node-facturacion-api.git`
 
-Después instala los modulos
+- Después instala los modulos
 
 `cd node-facturacion-api`
 
 `npm install`
 
-Para correr este script localmente utiliza los siguientes comandos:
+- Para correr este script localmente utiliza los siguientes comandos:
 
 `npm build`
 
