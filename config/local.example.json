@@ -13,6 +13,7 @@
     "amount": "",
     "account": "",
     "payment": "",
-    "paymentmethod": ""
+    "paymentmethod": "",
+    "rfc": "XAXX010101000"
   }
 }
