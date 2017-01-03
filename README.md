@@ -26,3 +26,11 @@ Para correr este script localmente utiliza los siguientes comandos:
 `node dist/index.js`
 
 
+## Automatización
+
+- Puedes agregar este script a tu *crontab* para correr los dias de nomina. Ejemplo usando crontab:
+
+`00 09 15,30 * * /desarrollo/junkyard/node-facturacion-api/dist/index.js`
+
+De esta manera correra todo los dias 15 y 30 a las 9:00am.
+
