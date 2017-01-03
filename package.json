@@ -1,0 +1,24 @@
+{
+  "name": "node-facturacion",
+  "version": "1.0.0",
+  "description": "Facturacion para Junkyard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/davidvexel/node-facturacion-api.git"
+  },
+  "keywords": [
+    "facturacion",
+    "factura",
+    "node"
+  ],
+  "author": "David Leal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidvexel/node-facturacion-api/issues"
+  },
+  "homepage": "https://github.com/davidvexel/node-facturacion-api#readme"
+}
