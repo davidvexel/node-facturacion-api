@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "description": "Facturacion para Junkyard",
   "scripts": {
-    "start": "nodemon --exec npm run babel-node --presets=es2015 -- lib/app.js",
     "build": "babel lib -d dist --presets=es2015",
-    "serve": "NODE_ENV=production forever start  dist/app.js",
-    "babel-node": "babel-node"
   },
   "repository": {
     "type": "git",
@@ -30,8 +27,4 @@
     "url": "https://github.com/davidvexel/node-facturacion-api/issues"
   },
   "homepage": "https://github.com/davidvexel/node-facturacion-api#readme",
-  "devDependencies": {
-    "babel-cli": "^6.18.0",
-    "babel-preset-latest": "^6.16.0"
-  }
 }
