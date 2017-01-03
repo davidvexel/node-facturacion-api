@@ -4,6 +4,7 @@
   "description": "Facturacion para Junkyard",
   "scripts": {
     "build": "babel lib -d dist --presets=es2015",
+    "babel-node": "babel-node"
   },
   "repository": {
     "type": "git",
@@ -13,8 +14,8 @@
     "bluebird": "3.4.6",
     "body-parser": "1.15.2",
     "config": "1.24.0",
-    "express": "4.14.0",
-    "node-slack": "0.0.7"
+    "node-slack": "0.0.7",
+    "request": "2.79.0"
   },
   "keywords": [
     "facturacion",
@@ -27,4 +28,8 @@
     "url": "https://github.com/davidvexel/node-facturacion-api/issues"
   },
   "homepage": "https://github.com/davidvexel/node-facturacion-api#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0"
+  }
 }

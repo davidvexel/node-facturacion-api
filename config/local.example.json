@@ -1,0 +1,18 @@
+/* Fill in with your local development preferences */
+{
+  "Slack": {
+    "webhook": "",
+    "channel": ""
+  },
+  "API": {
+    "endpoint": "",
+    "apikey": "",
+    "secretkey": ""
+  },
+  "Invoice": {
+    "amount": "",
+    "account": "",
+    "payment": "",
+    "paymentmethod": ""
+  }
+}
